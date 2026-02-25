@@ -1,2 +1,87 @@
 
 /* Your CSS Code here. */
+/* Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Table Styling */
+table {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Caption */
+caption {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* Header */
+th {
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+/* Cells */
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Zebra Rows */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Item Column */
+.item {
+  text-align: left;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+/* Price Column */
+.price {
+  text-align: right;
+  padding-right: 20px;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+/* Total Row */
+.total-row td {
+  background-color: #27ae60;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Button Styling */
+button {
+  margin-top: 20px;
+  padding: 10px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #27ae60;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #219150;
+  transform: scale(1.05);
+}
