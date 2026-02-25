@@ -1,38 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8" />
+  <title>Insert row in a table</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<table>
-  <caption>Monthly savings</caption>
-  <tr>
-    <th>Item</th>
-    <th>Prices in Rs</th>
-  </tr>
-  <tr>
-    <td class="item">Tea</td>
-    <td class="prices">50</td>
-  </tr>
-  <tr>
-    <td class="item">Coffee</td>
-    <td class="prices">70</td>
-  </tr>
-  <tr>
-    <td class="item">Biscuits</td>
-    <td class="prices">100</td>
-  </tr>
-  <tr>
-    <td class="item">Rice</td>
-    <td class="prices">130</td>
-  </tr>
-  <tr>
-    <td class="item">Milk</td>
-    <td class="prices">150</td>
-  </tr>
-</table>
+  <h2>Sample Table</h2>
 
-<script src="script.js"></script>
+  <table id="sampleTable" border="1">
+    <tr>
+      <td>Row1 cell1</td>
+      <td>Row1 cell2</td>
+    </tr>
+    <tr>
+      <td>Row2 cell1</td>
+      <td>Row2 cell2</td>
+    </tr>
+  </table>
+
+  <br>
+
+  <input type="button" onclick="insert_Row()" value="Insert row">
+
+  <script src="script.js"></script>
 </body>
 </html>

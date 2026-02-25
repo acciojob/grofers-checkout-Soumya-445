@@ -1,38 +1,36 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f7fa;
   padding: 30px;
-  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
 }
 
 table {
-  width: 60%;
-  margin: 0 auto;
   border-collapse: collapse;
-  background-color: white;
+  width: 300px;
 }
 
-th, td {
-  border: 1px solid #ddd;
+td {
   padding: 10px;
+  text-align: center;
 }
 
-th {
-  background-color: #2c3e50;
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+input[type="button"] {
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  background-color: #4CAF50;
   color: white;
+  border-radius: 4px;
 }
 
-.item {
-  text-align: left;
-}
-
-.prices {
-  text-align: right;
-  font-weight: bold;
-}
-
-.total-row td {
-  font-weight: bold;
-  background-color: #27ae60;
-  color: white;
+input[type="button"]:hover {
+  background-color: #45a049;
 }
